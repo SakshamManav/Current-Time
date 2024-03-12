@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+}
+.container{
+    position: fixed;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-image: linear-gradient(to right, darkred, orange);
+}
+.box{
+    color:white;
+    min-height:20vh;
+    min-width:80vh;
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background-color: white;
+    color:red;
+    cursor:pointer;
+    font-weight:900;
+}
+.time{
+    font-size:60px;
+}
+.hrs{
+    font-size:60px;
+}
+.min{
+    font-size:60px;
+}
+.sec{
+    font-size:60px;
+}
+.ampm{
+    margin-left: 20px;
+    font-size:60px;
+}
